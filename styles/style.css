@@ -2,6 +2,9 @@ html{
     margin: 50px;
     width: 1160px;
 }
+main{
+    background-color: rgba(127, 255, 212, 0.094);
+}
 .open-sans-inter{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -61,17 +64,21 @@ header{
     font-size: 20px;
     font-weight: bolder;
     width: 950px;
-    height: 237px;
+    /* height: 237px; */
     margin: 158px 0px 0px 100px;
     padding-top: 30px;
 }
 
 /* Main Section Style*/
+header{
+    margin-bottom: -90px;
+}
 .action{
     display: flex;
     justify-content: space-between;
     width: 950px;
-    margin-left: 90px;
+    margin: 90px;
+    padding-top: 116px;
 }
 .text-container h1{
     font-size: 40px;
@@ -134,7 +141,7 @@ button:hover{
 }
 .review{
     width: 950px;
-    height: 1224px;
+    /* height: 1224px; */
     margin-left: 90px;
     /* border: 2px solid black; */
     /* display: flex; */
