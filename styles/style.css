@@ -175,6 +175,37 @@ button:hover{
     margin-top: 8px;
     border-radius: 50%;
 }
+label{
+    display: block;
+}
+input{
+    width: 305px;
+    height: 38px;
+}
+.form-and-font{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+}
+.bigger-font{
+    font-size: 81px;
+    font-weight: 700;
+    /* border: 2px solid black; */
+}
+.black{
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+}
+/* fieldset{ */
+    /* width: 497px; */
+    /* display: block; */
+    /* border: 2x solid black; */
+    /* height: 50px; */
+/* } */
+/* } */
 /* .star{
     margin: 90px;
 } */
