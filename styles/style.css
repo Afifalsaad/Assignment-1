@@ -221,6 +221,15 @@ footer p{
     color: rgba(137, 135, 161, 1);
     font-size: 13px;
 }
+.links{
+    text-align: center;
+}
+.links a{
+    margin-right: 20px;
+    color: rgba(137, 135, 161, 1);
+    font-size: 12px;
+    text-decoration: none;
+}
 /* fieldset{ */
     /* width: 497px; */
     /* display: block; */
