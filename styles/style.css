@@ -105,6 +105,7 @@ header{
     padding: 12px 36px;
     font-weight: bold;
     cursor: pointer;
+    font-size: 12px;
 }
 button:hover{
     background-color: rgb(8, 168, 56);
@@ -135,7 +136,8 @@ button:hover{
     margin-top: 30px;
 }
 .info p{
-    font-size: 20px;
+    font-size: 13px;
+    margin-left: 13px;
     margin-top: 0px;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -184,11 +186,34 @@ button:hover{
 }
 label{
     display: block;
+    font-weight: 500;
+    /* font-size: 30px; */
+    /* margin-bottom: 5px; */
 }
 input{
     width: 305px;
     height: 38px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
+textarea{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+input::placeholder{
+    /* background-color: white; */
+    /* border: 5px solid rgba(0, 0, 0, 0.089); */
+    color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-left: 10px;
+ }
+ textarea::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-left: 10px;
+ }
 .form-and-font{
     /* border: 2px solid black; */
     display: flex;
@@ -201,6 +226,19 @@ input{
     font-size: 81px;
     font-weight: 700;
     /* border: 2px solid black; */
+}
+button[type="submit"]{
+    background-color: rgba(78, 71, 255, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 309px;
+    height: 38px;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: rgba(8, 168, 56)
 }
 .black{
     color: rgba(0, 0, 0, 1);
